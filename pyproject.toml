@@ -263,3 +263,18 @@ templates_path = [ "_templates" ]
 ".rst" = "restructuredtext"
 # ".txt" = "markdown"
 ".md" = "markdown"
+
+[tool.poetry]
+name = "python-algoritms"
+version = "0.1.0"
+description = ""
+authors = ["Viktor Shadrin <v.vshadrin@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
